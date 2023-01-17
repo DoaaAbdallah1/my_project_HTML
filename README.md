@@ -1,4 +1,3 @@
 # my_project_HTML
-*doaa Abdallah* /n
-my project html & css
+هذه المشاريع نفذتها من خلال التدريب مع داحمد بلال
 # HTML & CSS  Dr:Ahmed Belal
