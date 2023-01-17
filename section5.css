@@ -1,0 +1,22 @@
+h1{
+    color: #9c46c4;
+    background-color: aqua;
+    width: 10%;
+     height: 70vh;
+    border-top: 10px double salmon ;
+    border-bottom: 10px double salmon ;
+    border-left: 10px double salmon ;
+    border-right: 10px double salmon ;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    opacity: 0.5;
+  
+}
+body{
+    background-image: url(../image/61V4xGV0OiL._AC_SX679_.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: 100% 100%;
+     background-attachment: fixed;
+}

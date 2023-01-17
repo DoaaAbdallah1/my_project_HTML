@@ -1,0 +1,107 @@
+form{
+ width: 100%;
+}
+.divnav{
+background-color: rgb(204, 156, 36) ;
+height: 6vh;
+border-top-left-radius: 6px;
+border-top-right-radius: 6px;
+}
+.divnav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: yellow;
+    padding: 15px;
+    margin: 10px;
+    position: relative;
+    top: 6px;
+}
+.body{
+    background-color: rgb(10, 10, 49);
+    color: yellow;
+    height: 100vh;
+    text-align:right ;
+    border-top: #fff solid 0.5px;
+    border-bottom: #fff solid 0.5px;
+    padding: 30px;
+    font-size: 24px;
+    padding-bottom: 100px;
+    
+}
+.body label{
+    padding: 15px;
+  /* position: relative;
+    left: 30px;*/
+    
+}
+.body input,select{
+   /* margin-top: 16px;*/
+    margin-bottom: 16px;
+   /*width: 30%;*/
+}
+
+
+.footer{
+    background-color: rgb(204, 156, 36) ;
+    height: 6vh;
+   
+    border-end-end-radius: 6px;
+    border-end-start-radius: 6px;
+}
+.footer input:nth-child(odd){
+    background-color:green;
+    border-radius: 5px;
+    border: #fff .4px solid;
+    
+}
+.footer input:nth-child(even){
+    background-color: blue;
+    border-radius: 5px;
+    border: #fff .4px solid;
+}.footer input{
+    height: 4vh;
+    width: 5%;
+    position: relative;
+    left: 1140px;
+    top: 5px;
+    margin-right: 5px;
+}
+.footer input:hover{
+    background-color: #fff;
+    color: black;
+}
+.div input,select{
+  width: 66%;
+   height: 7vh;
+   border-radius: 7px;
+
+
+}
+.div1{
+    position: relative;
+    right: 540px;
+    font-size: 23px;
+    
+}
+.gender{
+    position: relative;
+    right: 610px;
+    margin-bottom: 16px;
+}
+
+input::placeholder{
+    padding: 9px;
+    font-size: 16px;
+}
+
+.date select{
+  width: 26.7%;
+  font-size: 17px;
+  padding: 10px;
+}
+.date select:nth-child(odd){
+    width: 8%;
+    padding: 10px;
+    margin-right: 26px;
+    margin-left: 26px;
+}

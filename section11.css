@@ -1,0 +1,19 @@
+div{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin-left: 10px;
+   
+
+}
+section{
+    background-color: aqua;
+    height: 100vh;
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+    align-items: flex-start;
+}

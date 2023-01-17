@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    pad: 0px;
+}
+/*start narbr*/
+.narbr{
+   padding: 20px;
+    background-color: crimson;
+}
+.narbr ul{
+    list-style-type: none;
+}
+.narbr ul li{
+    display: inline-block;
+}
+.narbr ul li a{
+    color: #fff;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.narbr ul li a:hover{
+   color: #444;
+}
+/*end narbr*/
+.header{
+    height: 90vh;
+    background: url(../image/How-to-make-banner-fullscreen-And-adapt-to-the-browser-size-.jpg) no-repeat;
+    background-size: 100% 90vh;
+    padding: 20px;
+}
+.header h1{
+    color: #fff;
+    font-size: 40px;
+    margin-left: 20px ;
+}
+/*start product*/
+.product{
+    margin-top: 130px;
+    padding: 20 px;
+}
+.product h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 60px;
+}.product .pro{
+    width: 25%;
+    border:2px solid #888 ;
+    border-radius: 7px;
+    padding: 20px;
+    text-align: center;
+}.product .pro img{
+    width: 50%;
+    border-radius: 50%;
+    border: solid 3px black;
+}
+.product .pro p.title{
+    font-size: 30px;
+}.product .pro p.dec{
+    font-size: 18px;
+    color: #888;
+    margin-bottom: 15px;
+    margin-top: 17px;
+    line-height: 1.4;
+}.product .pro a{
+    display: block;
+    background-color: crimson;
+    margin: auto;
+    width: 25;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 6px ;
+
+}

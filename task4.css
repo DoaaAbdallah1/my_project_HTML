@@ -1,0 +1,88 @@
+/* Q1 */
+#hhhj{
+    color: yellow;
+}
+/* Q3 */
+#doaa1{
+    color: red;
+}
+#doaa2{
+    color: blue;
+}
+.gr1{
+    color: green;
+}
+.gr2{
+    color: yellow;
+}
+/* Q4 */
+/*الطريقة الاولي*/
+#task4 *{
+    color: aqua;
+}
+/*الطريقة الثانية*/
+#doaa1 ,#doaa2,#doaa4,.gr1,.gr2{
+    color: aqua;
+}
+/* Q5  */
+/* a */
+#taskQ5 > p{
+    color: blue;
+}
+/* b */
+#taskQ5 p{
+    color: red;
+}
+/* c */
+#taskQ5 + p{
+    color: yellow;
+}
+/* d */
+#taskQ5 ~ p{
+    color: rgb(17, 238, 17);
+}
+/* Q6 */
+.max h1:nth-child(1){
+    color: red;
+}
+/* Q7 */
+/* 1 */
+ul:first-of-type{
+    color: red;
+}
+/* 2 */
+ul li:first-child{
+    color: red;
+}
+/* 3 */
+ul:last-of-type li:last-child{
+    color: red;
+}
+/* 4 */
+ul li:nth-child(2){
+    color: red;
+}
+/* 5 */
+ul li:nth-child(odd){
+    color: red;
+}
+/* 6 */
+#frist::first-line{
+ color: red;
+}
+/* 7 */
+#frist::first-letter{
+    color: red;
+}
+/* 8 */
+#frist::after{
+    content: "welcome";
+}
+/* 9 */
+#frist:hover{
+    color: green;
+}
+/* 10 */
+#frist{
+    color: red;
+}

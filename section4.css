@@ -1,0 +1,31 @@
+#doaa{
+    color: green;
+}
+#abeer{
+    color: red;
+}
+#section4 > h2{
+    color: aqua;
+}
+#section4 ~ h2{
+    color: yellowgreen;
+}
+a{
+
+    color: brown;
+}
+a:hover{
+    color: yellow;
+}
+div h2:nth-child(3){
+    color: blue;
+}
+#doaa7::first-letter{
+    font-size: 100px;
+}#doaa7::first-line{
+    color: blue;
+}
+/* comment css*/
+#doaa7::after{
+    content: "after";
+}

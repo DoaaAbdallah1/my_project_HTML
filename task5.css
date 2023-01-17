@@ -1,0 +1,23 @@
+/* Q3 : 2 */
+#div1{
+    color: aliceblue;
+    height: 80vh;
+    width: 60%;
+    padding: 100px 50px ;
+    margin: 100px; background-color: black;
+    border-top: 10px solid blue ;
+    border-bottom: 10px double yellow;
+    border-left: 10px dotted salmon ;
+    border-right: 10px dashed green ;
+}
+#div2{
+    height: 100px;
+    width: 100px;
+    padding: 100px  ;
+    margin: 100px; background-color:green;
+    border: 10px solid black;
+    border-radius: 50%;
+   
+
+}
+

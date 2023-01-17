@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #888;
+}
+/* start navbar */
+.navbar{
+    background-color: black;
+
+}
+.navbar ul li{
+    margin: 20px;
+    display: inline-block;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.navbar ul li a:hover{
+    color: #888;
+}
+/* end navbar */
+
+/* start img1*/
+.img1{
+    height: 40vh;
+  background: url(../images/1.jpg) no-repeat ;
+  background-size: 100% 100vh;
+   background-position: center;
+   background-attachment: initial;
+   margin: 35px 35px 25px 70px;
+   border-radius: 10px;
+}
+/* end img1*/
+/*start products*/
+.products h1{
+text-align: center;
+font-size: 28px;
+margin-bottom: 60px;
+}
+.products .pro{
+    width: 20%;
+  
+    border:6px solid black ;
+    border-radius: 7px;
+    padding: 0px;
+    text-align: center;
+    color: #fff;
+    background-color: black;
+    margin-bottom: 30px;
+    margin: 10px;
+}.products .pro img{
+    width: 80%;
+    
+}
+.products .pro p.title{
+    font-size: 27px;
+    margin: 15px;
+}.products .pro p.prise{
+    margin: 18px;
+}
+.products .pro a{
+    display: block;
+    background-color: #fff;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 22%;
+    color: black;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 15px ;
+}
+.products .pro.pro2{
+  margin-left:25%;
+}
+.products .pro.pro3{
+    margin-left: 51%;
+  }.products .pro.pro4{
+  margin-left: 78%;
+  }
+/*end products*/
+/*start made*/
+.made{
+    background-color: black;
+    padding: 20px;
+}
+.made p{
+    color: #fff;
+    text-align: center;
+
+}
+/*end made*/
